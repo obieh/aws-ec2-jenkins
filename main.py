@@ -1,7 +1,7 @@
 from flask import Flask,jsonify
 app=Flask(__name__)
-@app.route("/")
 
+@app.route("/")
 def ping_server():
     return jsonify("yes we can now ping server...server is ruuning")
 
